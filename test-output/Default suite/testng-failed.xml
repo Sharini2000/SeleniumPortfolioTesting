@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.My_Portfolio_Testing.TestPortfolio">
+        <methods>
+          <include name="certColorTest"/>
+          <include name="ProjectColorTest"/>
+          <include name="Skills"/>
+          <include name="portfolio"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="skillColorTest"/>
+          <include name="ContactColorTest"/>
+          <include name="aboutColorTest"/>
+          <include name="Certifications"/>
+          <include name="Projects"/>
+          <include name="home"/>
+          <include name="homeColorTest"/>
+          <include name="tearDown"/>
+          <include name="Contact"/>
+          <include name="beforeSuite"/>
+          <include name="About"/>
+        </methods>
+      </class> <!-- com.My_Portfolio_Testing.TestPortfolio -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

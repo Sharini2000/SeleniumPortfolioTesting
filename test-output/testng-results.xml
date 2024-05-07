@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="50" passed="50" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-06T10:59:37 EDT" name="Suite" finished-at="2024-05-06T11:07:35 EDT" duration-ms="478311">
+    <groups>
+    </groups>
+    <test started-at="2024-05-06T10:59:37 EDT" name="PortfolioHeader_Chrome_Test" finished-at="2024-05-06T11:01:24 EDT" duration-ms="107697">
+      <class name="com.My_Portfolio_Testing.PortfolioHeaderTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T10:59:37 EDT" name="setUp" finished-at="2024-05-06T10:59:41 EDT" duration-ms="4666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="portfolio()[pri:1, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T10:59:41 EDT" name="portfolio" finished-at="2024-05-06T10:59:45 EDT" duration-ms="3794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portfolio -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T10:59:45 EDT" name="tearDown" finished-at="2024-05-06T10:59:45 EDT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T10:59:45 EDT" name="setUp" finished-at="2024-05-06T10:59:48 EDT" duration-ms="3238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home()[pri:2, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T10:59:48 EDT" name="home" finished-at="2024-05-06T10:59:53 EDT" duration-ms="4184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T10:59:53 EDT" name="tearDown" finished-at="2024-05-06T10:59:53 EDT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T10:59:53 EDT" name="setUp" finished-at="2024-05-06T10:59:56 EDT" duration-ms="3123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homeColorTest()[pri:3, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T10:59:56 EDT" name="homeColorTest" finished-at="2024-05-06T11:00:01 EDT" duration-ms="5613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeColorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:01 EDT" name="tearDown" finished-at="2024-05-06T11:00:02 EDT" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:02 EDT" name="setUp" finished-at="2024-05-06T11:00:05 EDT" duration-ms="3205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="About()[pri:4, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:05 EDT" name="About" finished-at="2024-05-06T11:00:09 EDT" duration-ms="4213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:09 EDT" name="tearDown" finished-at="2024-05-06T11:00:09 EDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:09 EDT" name="setUp" finished-at="2024-05-06T11:00:12 EDT" duration-ms="3170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="aboutColorTest()[pri:5, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:12 EDT" name="aboutColorTest" finished-at="2024-05-06T11:00:18 EDT" duration-ms="5397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutColorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:18 EDT" name="tearDown" finished-at="2024-05-06T11:00:18 EDT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:18 EDT" name="setUp" finished-at="2024-05-06T11:00:21 EDT" duration-ms="3185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Skills()[pri:6, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:21 EDT" name="Skills" finished-at="2024-05-06T11:00:25 EDT" duration-ms="4307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skills -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:25 EDT" name="tearDown" finished-at="2024-05-06T11:00:26 EDT" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:26 EDT" name="setUp" finished-at="2024-05-06T11:00:29 EDT" duration-ms="3213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="skillColorTest()[pri:7, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:29 EDT" name="skillColorTest" finished-at="2024-05-06T11:00:34 EDT" duration-ms="5446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillColorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:34 EDT" name="tearDown" finished-at="2024-05-06T11:00:34 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:34 EDT" name="setUp" finished-at="2024-05-06T11:00:38 EDT" duration-ms="3149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Certifications()[pri:8, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:38 EDT" name="Certifications" finished-at="2024-05-06T11:00:42 EDT" duration-ms="4322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Certifications -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:42 EDT" name="tearDown" finished-at="2024-05-06T11:00:42 EDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:42 EDT" name="setUp" finished-at="2024-05-06T11:00:45 EDT" duration-ms="3229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="certColorTest()[pri:9, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:45 EDT" name="certColorTest" finished-at="2024-05-06T11:00:51 EDT" duration-ms="5513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certColorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:51 EDT" name="tearDown" finished-at="2024-05-06T11:00:51 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:51 EDT" name="setUp" finished-at="2024-05-06T11:00:54 EDT" duration-ms="3200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Projects()[pri:10, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:54 EDT" name="Projects" finished-at="2024-05-06T11:00:58 EDT" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Projects -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:58 EDT" name="tearDown" finished-at="2024-05-06T11:00:59 EDT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:00:59 EDT" name="setUp" finished-at="2024-05-06T11:01:02 EDT" duration-ms="3167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProjectColorTest()[pri:11, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:01:02 EDT" name="ProjectColorTest" finished-at="2024-05-06T11:01:07 EDT" duration-ms="5631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectColorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:01:07 EDT" name="tearDown" finished-at="2024-05-06T11:01:08 EDT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:01:08 EDT" name="setUp" finished-at="2024-05-06T11:01:11 EDT" duration-ms="3107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Contact()[pri:12, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:01:11 EDT" name="Contact" finished-at="2024-05-06T11:01:15 EDT" duration-ms="4448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:01:15 EDT" name="tearDown" finished-at="2024-05-06T11:01:15 EDT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:01:15 EDT" name="setUp" finished-at="2024-05-06T11:01:18 EDT" duration-ms="3120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ContactColorTest()[pri:13, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:01:18 EDT" name="ContactColorTest" finished-at="2024-05-06T11:01:24 EDT" duration-ms="5628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactColorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6150c3ec]" started-at="2024-05-06T11:01:24 EDT" name="tearDown" finished-at="2024-05-06T11:01:24 EDT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.My_Portfolio_Testing.PortfolioHeaderTest -->
+    </test> <!-- PortfolioHeader_Chrome_Test -->
+    <test started-at="2024-05-06T11:01:25 EDT" name="PortfolioHeader_Edge_Test" finished-at="2024-05-06T11:03:20 EDT" duration-ms="114948">
+      <class name="com.My_Portfolio_Testing.PortfolioHeaderTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:01:25 EDT" name="setUp" finished-at="2024-05-06T11:01:28 EDT" duration-ms="3366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="portfolio()[pri:1, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:01:28 EDT" name="portfolio" finished-at="2024-05-06T11:01:32 EDT" duration-ms="3581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portfolio -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:01:32 EDT" name="tearDown" finished-at="2024-05-06T11:01:32 EDT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:01:32 EDT" name="setUp" finished-at="2024-05-06T11:01:35 EDT" duration-ms="3462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home()[pri:2, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:01:35 EDT" name="home" finished-at="2024-05-06T11:01:40 EDT" duration-ms="4507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:01:40 EDT" name="tearDown" finished-at="2024-05-06T11:01:40 EDT" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:01:40 EDT" name="setUp" finished-at="2024-05-06T11:01:43 EDT" duration-ms="3468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homeColorTest()[pri:3, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:01:43 EDT" name="homeColorTest" finished-at="2024-05-06T11:01:49 EDT" duration-ms="5691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeColorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:01:49 EDT" name="tearDown" finished-at="2024-05-06T11:01:49 EDT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:01:49 EDT" name="setUp" finished-at="2024-05-06T11:01:53 EDT" duration-ms="3323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="About()[pri:4, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:01:53 EDT" name="About" finished-at="2024-05-06T11:01:57 EDT" duration-ms="4661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:01:57 EDT" name="tearDown" finished-at="2024-05-06T11:01:57 EDT" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:01:57 EDT" name="setUp" finished-at="2024-05-06T11:02:01 EDT" duration-ms="3625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="aboutColorTest()[pri:5, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:01 EDT" name="aboutColorTest" finished-at="2024-05-06T11:02:07 EDT" duration-ms="5836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutColorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:07 EDT" name="tearDown" finished-at="2024-05-06T11:02:07 EDT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:07 EDT" name="setUp" finished-at="2024-05-06T11:02:11 EDT" duration-ms="3418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Skills()[pri:6, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:11 EDT" name="Skills" finished-at="2024-05-06T11:02:15 EDT" duration-ms="4620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skills -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:15 EDT" name="tearDown" finished-at="2024-05-06T11:02:15 EDT" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:15 EDT" name="setUp" finished-at="2024-05-06T11:02:19 EDT" duration-ms="3501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="skillColorTest()[pri:7, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:19 EDT" name="skillColorTest" finished-at="2024-05-06T11:02:25 EDT" duration-ms="5950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillColorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:25 EDT" name="tearDown" finished-at="2024-05-06T11:02:25 EDT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:25 EDT" name="setUp" finished-at="2024-05-06T11:02:28 EDT" duration-ms="3238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Certifications()[pri:8, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:28 EDT" name="Certifications" finished-at="2024-05-06T11:02:33 EDT" duration-ms="4668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Certifications -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:33 EDT" name="tearDown" finished-at="2024-05-06T11:02:33 EDT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:33 EDT" name="setUp" finished-at="2024-05-06T11:02:36 EDT" duration-ms="3407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="certColorTest()[pri:9, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:36 EDT" name="certColorTest" finished-at="2024-05-06T11:02:42 EDT" duration-ms="5820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- certColorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:42 EDT" name="tearDown" finished-at="2024-05-06T11:02:43 EDT" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:43 EDT" name="setUp" finished-at="2024-05-06T11:02:46 EDT" duration-ms="3371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Projects()[pri:10, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:46 EDT" name="Projects" finished-at="2024-05-06T11:02:51 EDT" duration-ms="4721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Projects -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:51 EDT" name="tearDown" finished-at="2024-05-06T11:02:51 EDT" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:51 EDT" name="setUp" finished-at="2024-05-06T11:02:54 EDT" duration-ms="3397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ProjectColorTest()[pri:11, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:02:54 EDT" name="ProjectColorTest" finished-at="2024-05-06T11:03:00 EDT" duration-ms="5960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectColorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:03:00 EDT" name="tearDown" finished-at="2024-05-06T11:03:00 EDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:03:00 EDT" name="setUp" finished-at="2024-05-06T11:03:04 EDT" duration-ms="3634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Contact()[pri:12, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:03:04 EDT" name="Contact" finished-at="2024-05-06T11:03:09 EDT" duration-ms="5290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:03:09 EDT" name="tearDown" finished-at="2024-05-06T11:03:10 EDT" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:03:10 EDT" name="setUp" finished-at="2024-05-06T11:03:13 EDT" duration-ms="3707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ContactColorTest()[pri:13, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:03:13 EDT" name="ContactColorTest" finished-at="2024-05-06T11:03:19 EDT" duration-ms="6074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactColorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioHeaderTest@6913c1fb]" started-at="2024-05-06T11:03:19 EDT" name="tearDown" finished-at="2024-05-06T11:03:20 EDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.My_Portfolio_Testing.PortfolioHeaderTest -->
+    </test> <!-- PortfolioHeader_Edge_Test -->
+    <test started-at="2024-05-06T11:03:20 EDT" name="PortfolioContents1_Chrome_Test" finished-at="2024-05-06T11:03:34 EDT" duration-ms="14221">
+      <class name="com.My_Portfolio_Testing.PortfolioContentsTestPart1">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@158a8276]" started-at="2024-05-06T11:03:20 EDT" name="setUp" finished-at="2024-05-06T11:03:23 EDT" duration-ms="3348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Home()[pri:1, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@158a8276]" started-at="2024-05-06T11:03:23 EDT" name="Home" finished-at="2024-05-06T11:03:23 EDT" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@158a8276]" started-at="2024-05-06T11:03:23 EDT" name="tearDown" finished-at="2024-05-06T11:03:23 EDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@158a8276]" started-at="2024-05-06T11:03:23 EDT" name="setUp" finished-at="2024-05-06T11:03:27 EDT" duration-ms="3401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="About()[pri:2, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@158a8276]" started-at="2024-05-06T11:03:27 EDT" name="About" finished-at="2024-05-06T11:03:30 EDT" duration-ms="2839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@158a8276]" started-at="2024-05-06T11:03:30 EDT" name="tearDown" finished-at="2024-05-06T11:03:30 EDT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@158a8276]" started-at="2024-05-06T11:03:30 EDT" name="setUp" finished-at="2024-05-06T11:03:33 EDT" duration-ms="3314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Skills()[pri:3, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@158a8276]" started-at="2024-05-06T11:03:33 EDT" name="Skills" finished-at="2024-05-06T11:03:34 EDT" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skills -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@158a8276]" started-at="2024-05-06T11:03:34 EDT" name="tearDown" finished-at="2024-05-06T11:03:34 EDT" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.My_Portfolio_Testing.PortfolioContentsTestPart1 -->
+    </test> <!-- PortfolioContents1_Chrome_Test -->
+    <test started-at="2024-05-06T11:03:34 EDT" name="PortfolioContents1_Edge_Test" finished-at="2024-05-06T11:03:51 EDT" duration-ms="17119">
+      <class name="com.My_Portfolio_Testing.PortfolioContentsTestPart1">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@7530ad9c]" started-at="2024-05-06T11:03:34 EDT" name="setUp" finished-at="2024-05-06T11:03:38 EDT" duration-ms="3817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Home()[pri:1, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@7530ad9c]" started-at="2024-05-06T11:03:38 EDT" name="Home" finished-at="2024-05-06T11:03:38 EDT" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@7530ad9c]" started-at="2024-05-06T11:03:38 EDT" name="tearDown" finished-at="2024-05-06T11:03:39 EDT" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@7530ad9c]" started-at="2024-05-06T11:03:39 EDT" name="setUp" finished-at="2024-05-06T11:03:42 EDT" duration-ms="3659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="About()[pri:2, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@7530ad9c]" started-at="2024-05-06T11:03:42 EDT" name="About" finished-at="2024-05-06T11:03:46 EDT" duration-ms="3706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@7530ad9c]" started-at="2024-05-06T11:03:46 EDT" name="tearDown" finished-at="2024-05-06T11:03:46 EDT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@7530ad9c]" started-at="2024-05-06T11:03:46 EDT" name="setUp" finished-at="2024-05-06T11:03:50 EDT" duration-ms="3441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Skills()[pri:3, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@7530ad9c]" started-at="2024-05-06T11:03:50 EDT" name="Skills" finished-at="2024-05-06T11:03:50 EDT" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skills -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart1@7530ad9c]" started-at="2024-05-06T11:03:50 EDT" name="tearDown" finished-at="2024-05-06T11:03:51 EDT" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.My_Portfolio_Testing.PortfolioContentsTestPart1 -->
+    </test> <!-- PortfolioContents1_Edge_Test -->
+    <test started-at="2024-05-06T11:03:51 EDT" name="PortfolioContents2_Chrome_Test" finished-at="2024-05-06T11:04:28 EDT" duration-ms="36808">
+      <class name="com.My_Portfolio_Testing.PortfolioContentsTestPart2">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart2@65d09a04]" started-at="2024-05-06T11:03:51 EDT" name="setUp" finished-at="2024-05-06T11:03:55 EDT" duration-ms="3483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Certifications()[pri:1, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart2@65d09a04]" started-at="2024-05-06T11:03:55 EDT" name="Certifications" finished-at="2024-05-06T11:04:08 EDT" duration-ms="13806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Certifications -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart2@65d09a04]" started-at="2024-05-06T11:04:08 EDT" name="tearDown" finished-at="2024-05-06T11:04:09 EDT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart2@65d09a04]" started-at="2024-05-06T11:04:09 EDT" name="setUp" finished-at="2024-05-06T11:04:12 EDT" duration-ms="3279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Projects()[pri:2, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart2@65d09a04]" started-at="2024-05-06T11:04:12 EDT" name="Projects" finished-at="2024-05-06T11:04:28 EDT" duration-ms="15837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Projects -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart2@65d09a04]" started-at="2024-05-06T11:04:28 EDT" name="tearDown" finished-at="2024-05-06T11:04:28 EDT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.My_Portfolio_Testing.PortfolioContentsTestPart2 -->
+    </test> <!-- PortfolioContents2_Chrome_Test -->
+    <test started-at="2024-05-06T11:04:28 EDT" name="PortfolioContents2_Edge_Test" finished-at="2024-05-06T11:05:11 EDT" duration-ms="43370">
+      <class name="com.My_Portfolio_Testing.PortfolioContentsTestPart2">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart2@6a2f6f80]" started-at="2024-05-06T11:04:28 EDT" name="setUp" finished-at="2024-05-06T11:04:31 EDT" duration-ms="3398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Certifications()[pri:1, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart2@6a2f6f80]" started-at="2024-05-06T11:04:31 EDT" name="Certifications" finished-at="2024-05-06T11:04:50 EDT" duration-ms="18865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Certifications -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart2@6a2f6f80]" started-at="2024-05-06T11:04:50 EDT" name="tearDown" finished-at="2024-05-06T11:04:50 EDT" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart2@6a2f6f80]" started-at="2024-05-06T11:04:50 EDT" name="setUp" finished-at="2024-05-06T11:04:54 EDT" duration-ms="3394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Projects()[pri:2, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart2@6a2f6f80]" started-at="2024-05-06T11:04:54 EDT" name="Projects" finished-at="2024-05-06T11:05:11 EDT" duration-ms="17241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Projects -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart2@6a2f6f80]" started-at="2024-05-06T11:05:11 EDT" name="tearDown" finished-at="2024-05-06T11:05:11 EDT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.My_Portfolio_Testing.PortfolioContentsTestPart2 -->
+    </test> <!-- PortfolioContents2_Edge_Test -->
+    <test started-at="2024-05-06T11:05:11 EDT" name="PortfolioContents3_Chrome_Test" finished-at="2024-05-06T11:06:20 EDT" duration-ms="68918">
+      <class name="com.My_Portfolio_Testing.PortfolioContentsTestPart3">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:11 EDT" name="setUp" finished-at="2024-05-06T11:05:15 EDT" duration-ms="3257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Contacts()[pri:1, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:15 EDT" name="Contacts" finished-at="2024-05-06T11:05:19 EDT" duration-ms="4521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contacts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:19 EDT" name="tearDown" finished-at="2024-05-06T11:05:19 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:19 EDT" name="setUp" finished-at="2024-05-06T11:05:22 EDT" duration-ms="3273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Email_and_number()[pri:2, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:22 EDT" name="Email_and_number" finished-at="2024-05-06T11:05:27 EDT" duration-ms="4774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email_and_number -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:27 EDT" name="setUp" finished-at="2024-05-06T11:05:30 EDT" duration-ms="3262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:27 EDT" name="tearDown" finished-at="2024-05-06T11:05:27 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="LinkedIN()[pri:3, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:30 EDT" name="LinkedIN" finished-at="2024-05-06T11:05:39 EDT" duration-ms="8793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedIN -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:39 EDT" name="tearDown" finished-at="2024-05-06T11:05:40 EDT" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:40 EDT" name="setUp" finished-at="2024-05-06T11:05:43 EDT" duration-ms="3230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GitHub()[pri:4, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:43 EDT" name="GitHub" finished-at="2024-05-06T11:05:47 EDT" duration-ms="3918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GitHub -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:47 EDT" name="tearDown" finished-at="2024-05-06T11:05:47 EDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:47 EDT" name="setUp" finished-at="2024-05-06T11:05:50 EDT" duration-ms="3169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FeedbackForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:50 EDT" name="FeedbackForm" data-provider="getData" finished-at="2024-05-06T11:05:58 EDT" duration-ms="7844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tommy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid email test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Valid email test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FeedbackForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:58 EDT" name="tearDown" finished-at="2024-05-06T11:05:58 EDT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:05:58 EDT" name="setUp" finished-at="2024-05-06T11:06:02 EDT" duration-ms="3363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FeedbackForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:06:02 EDT" name="FeedbackForm" data-provider="getData" finished-at="2024-05-06T11:06:09 EDT" duration-ms="6985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cherry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testmail]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid email test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid email test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FeedbackForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:06:09 EDT" name="tearDown" finished-at="2024-05-06T11:06:09 EDT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:06:09 EDT" name="setUp" finished-at="2024-05-06T11:06:12 EDT" duration-ms="3335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FeedbackForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:06:12 EDT" name="FeedbackForm" data-provider="getData" finished-at="2024-05-06T11:06:20 EDT" duration-ms="7738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beryl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdefghijkj@yahoo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid email test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Valid email test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FeedbackForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@3af9c5b7]" started-at="2024-05-06T11:06:20 EDT" name="tearDown" finished-at="2024-05-06T11:06:20 EDT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.My_Portfolio_Testing.PortfolioContentsTestPart3 -->
+    </test> <!-- PortfolioContents3_Chrome_Test -->
+    <test started-at="2024-05-06T11:06:20 EDT" name="PortfolioContents3_Edge_Test" finished-at="2024-05-06T11:07:35 EDT" duration-ms="74562">
+      <class name="com.My_Portfolio_Testing.PortfolioContentsTestPart3">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:06:20 EDT" name="setUp" finished-at="2024-05-06T11:06:24 EDT" duration-ms="3447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Contacts()[pri:1, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:06:24 EDT" name="Contacts" finished-at="2024-05-06T11:06:29 EDT" duration-ms="5208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contacts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:06:29 EDT" name="tearDown" finished-at="2024-05-06T11:06:29 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:06:29 EDT" name="setUp" finished-at="2024-05-06T11:06:32 EDT" duration-ms="3427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Email_and_number()[pri:2, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:06:32 EDT" name="Email_and_number" finished-at="2024-05-06T11:06:38 EDT" duration-ms="6118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email_and_number -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:06:38 EDT" name="tearDown" finished-at="2024-05-06T11:06:38 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:06:38 EDT" name="setUp" finished-at="2024-05-06T11:06:42 EDT" duration-ms="3358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LinkedIN()[pri:3, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:06:42 EDT" name="LinkedIN" finished-at="2024-05-06T11:06:51 EDT" duration-ms="9321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedIN -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:06:51 EDT" name="tearDown" finished-at="2024-05-06T11:06:52 EDT" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:06:52 EDT" name="setUp" finished-at="2024-05-06T11:06:55 EDT" duration-ms="3446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GitHub()[pri:4, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:06:55 EDT" name="GitHub" finished-at="2024-05-06T11:06:59 EDT" duration-ms="4455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GitHub -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:06:59 EDT" name="tearDown" finished-at="2024-05-06T11:07:00 EDT" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:07:00 EDT" name="setUp" finished-at="2024-05-06T11:07:03 EDT" duration-ms="3423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FeedbackForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:07:03 EDT" name="FeedbackForm" data-provider="getData" finished-at="2024-05-06T11:07:12 EDT" duration-ms="8583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tommy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid email test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Valid email test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FeedbackForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:07:12 EDT" name="tearDown" finished-at="2024-05-06T11:07:12 EDT" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:07:12 EDT" name="setUp" finished-at="2024-05-06T11:07:15 EDT" duration-ms="3373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FeedbackForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:07:15 EDT" name="FeedbackForm" data-provider="getData" finished-at="2024-05-06T11:07:23 EDT" duration-ms="7458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cherry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testmail]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid email test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid email test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FeedbackForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:07:23 EDT" name="tearDown" finished-at="2024-05-06T11:07:23 EDT" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:07:23 EDT" name="setUp" finished-at="2024-05-06T11:07:27 EDT" duration-ms="3525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FeedbackForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:07:27 EDT" name="FeedbackForm" data-provider="getData" finished-at="2024-05-06T11:07:35 EDT" duration-ms="8056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beryl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdefghijkj@yahoo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid email test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Valid email test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FeedbackForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.My_Portfolio_Testing.PortfolioContentsTestPart3@37883b97]" started-at="2024-05-06T11:07:35 EDT" name="tearDown" finished-at="2024-05-06T11:07:35 EDT" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.My_Portfolio_Testing.PortfolioContentsTestPart3 -->
+    </test> <!-- PortfolioContents3_Edge_Test -->
+  </suite> <!-- Suite -->
+</testng-results>

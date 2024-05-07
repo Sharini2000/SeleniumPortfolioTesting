@@ -1,0 +1,2204 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Automated Tests - Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 6, 2024 10:45:30 a.m.</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">ShariniRithigaaBS</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">com.My_Portfolio_Testing.PortfolioContentsTestPart1</a><a class="dropdown-item" href="#">com.My_Portfolio_Testing.PortfolioHeaderTest</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">portfolio( )</p>
+            <p class="text-sm">
+              <span>10:45:30 a.m.</span> / <span>00:00:03:579</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">portfolio( )</h5>
+<span class='badge badge-success'>05.06.2024 10:45:30 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:45:34 a.m.</span>
+<span class='badge badge-default'>00:00:03:579</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:45:34 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">home( )</p>
+            <p class="text-sm">
+              <span>10:45:37 a.m.</span> / <span>00:00:04:203</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">home( )</h5>
+<span class='badge badge-success'>05.06.2024 10:45:37 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:45:41 a.m.</span>
+<span class='badge badge-default'>00:00:04:203</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:45:41 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">homeColorTest( )</p>
+            <p class="text-sm">
+              <span>10:45:45 a.m.</span> / <span>00:00:05:609</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">homeColorTest( )</h5>
+<span class='badge badge-success'>05.06.2024 10:45:45 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:45:50 a.m.</span>
+<span class='badge badge-default'>00:00:05:609</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:45:50 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">About( )</p>
+            <p class="text-sm">
+              <span>10:45:53 a.m.</span> / <span>00:00:04:201</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">About( )</h5>
+<span class='badge badge-success'>05.06.2024 10:45:53 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:45:58 a.m.</span>
+<span class='badge badge-default'>00:00:04:201</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:45:58 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">aboutColorTest( )</p>
+            <p class="text-sm">
+              <span>10:46:01 a.m.</span> / <span>00:00:05:387</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">aboutColorTest( )</h5>
+<span class='badge badge-success'>05.06.2024 10:46:01 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:46:06 a.m.</span>
+<span class='badge badge-default'>00:00:05:387</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:46:06 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">Skills( )</p>
+            <p class="text-sm">
+              <span>10:46:10 a.m.</span> / <span>00:00:04:279</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Skills( )</h5>
+<span class='badge badge-success'>05.06.2024 10:46:10 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:46:14 a.m.</span>
+<span class='badge badge-default'>00:00:04:279</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:46:14 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">skillColorTest( )</p>
+            <p class="text-sm">
+              <span>10:46:17 a.m.</span> / <span>00:00:05:438</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">skillColorTest( )</h5>
+<span class='badge badge-success'>05.06.2024 10:46:17 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:46:23 a.m.</span>
+<span class='badge badge-default'>00:00:05:438</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:46:23 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">Certifications( )</p>
+            <p class="text-sm">
+              <span>10:46:26 a.m.</span> / <span>00:00:04:362</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Certifications( )</h5>
+<span class='badge badge-success'>05.06.2024 10:46:26 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:46:30 a.m.</span>
+<span class='badge badge-default'>00:00:04:362</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:46:30 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">certColorTest( )</p>
+            <p class="text-sm">
+              <span>10:46:34 a.m.</span> / <span>00:00:05:571</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">certColorTest( )</h5>
+<span class='badge badge-success'>05.06.2024 10:46:34 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:46:39 a.m.</span>
+<span class='badge badge-default'>00:00:05:571</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:46:39 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">Projects( )</p>
+            <p class="text-sm">
+              <span>10:46:43 a.m.</span> / <span>00:00:04:402</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Projects( )</h5>
+<span class='badge badge-success'>05.06.2024 10:46:43 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:46:47 a.m.</span>
+<span class='badge badge-default'>00:00:04:402</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:46:47 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">ProjectColorTest( )</p>
+            <p class="text-sm">
+              <span>10:46:51 a.m.</span> / <span>00:00:05:662</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ProjectColorTest( )</h5>
+<span class='badge badge-success'>05.06.2024 10:46:51 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:46:56 a.m.</span>
+<span class='badge badge-default'>00:00:05:662</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:46:56 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">Contact( )</p>
+            <p class="text-sm">
+              <span>10:46:59 a.m.</span> / <span>00:00:04:463</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Contact( )</h5>
+<span class='badge badge-success'>05.06.2024 10:46:59 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:47:04 a.m.</span>
+<span class='badge badge-default'>00:00:04:463</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:47:04 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">ContactColorTest( )</p>
+            <p class="text-sm">
+              <span>10:47:07 a.m.</span> / <span>00:00:05:757</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ContactColorTest( )</h5>
+<span class='badge badge-success'>05.06.2024 10:47:07 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:47:13 a.m.</span>
+<span class='badge badge-default'>00:00:05:757</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:47:13 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">portfolio( )</p>
+            <p class="text-sm">
+              <span>10:47:17 a.m.</span> / <span>00:00:03:684</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">portfolio( )</h5>
+<span class='badge badge-success'>05.06.2024 10:47:17 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:47:20 a.m.</span>
+<span class='badge badge-default'>00:00:03:684</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:47:20 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">home( )</p>
+            <p class="text-sm">
+              <span>10:47:24 a.m.</span> / <span>00:00:04:607</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">home( )</h5>
+<span class='badge badge-success'>05.06.2024 10:47:24 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:47:28 a.m.</span>
+<span class='badge badge-default'>00:00:04:607</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:47:28 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">homeColorTest( )</p>
+            <p class="text-sm">
+              <span>10:47:32 a.m.</span> / <span>00:00:05:765</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">homeColorTest( )</h5>
+<span class='badge badge-success'>05.06.2024 10:47:32 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:47:38 a.m.</span>
+<span class='badge badge-default'>00:00:05:765</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:47:38 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">About( )</p>
+            <p class="text-sm">
+              <span>10:47:41 a.m.</span> / <span>00:00:04:541</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">About( )</h5>
+<span class='badge badge-success'>05.06.2024 10:47:41 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:47:46 a.m.</span>
+<span class='badge badge-default'>00:00:04:541</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:47:46 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">aboutColorTest( )</p>
+            <p class="text-sm">
+              <span>10:47:49 a.m.</span> / <span>00:00:05:791</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">aboutColorTest( )</h5>
+<span class='badge badge-success'>05.06.2024 10:47:49 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:47:55 a.m.</span>
+<span class='badge badge-default'>00:00:05:791</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:47:55 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">Skills( )</p>
+            <p class="text-sm">
+              <span>10:47:58 a.m.</span> / <span>00:00:04:606</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Skills( )</h5>
+<span class='badge badge-success'>05.06.2024 10:47:58 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:48:03 a.m.</span>
+<span class='badge badge-default'>00:00:04:606</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:48:03 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">skillColorTest( )</p>
+            <p class="text-sm">
+              <span>10:48:07 a.m.</span> / <span>00:00:05:963</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">skillColorTest( )</h5>
+<span class='badge badge-success'>05.06.2024 10:48:07 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:48:13 a.m.</span>
+<span class='badge badge-default'>00:00:05:963</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:48:13 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">Certifications( )</p>
+            <p class="text-sm">
+              <span>10:48:16 a.m.</span> / <span>00:00:04:630</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Certifications( )</h5>
+<span class='badge badge-success'>05.06.2024 10:48:16 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:48:21 a.m.</span>
+<span class='badge badge-default'>00:00:04:630</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:48:21 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">certColorTest( )</p>
+            <p class="text-sm">
+              <span>10:48:24 a.m.</span> / <span>00:00:05:828</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">certColorTest( )</h5>
+<span class='badge badge-success'>05.06.2024 10:48:24 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:48:30 a.m.</span>
+<span class='badge badge-default'>00:00:05:828</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:48:30 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">Projects( )</p>
+            <p class="text-sm">
+              <span>10:48:33 a.m.</span> / <span>00:00:04:717</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Projects( )</h5>
+<span class='badge badge-success'>05.06.2024 10:48:33 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:48:38 a.m.</span>
+<span class='badge badge-default'>00:00:04:717</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:48:38 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">ProjectColorTest( )</p>
+            <p class="text-sm">
+              <span>10:48:42 a.m.</span> / <span>00:00:06:013</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ProjectColorTest( )</h5>
+<span class='badge badge-success'>05.06.2024 10:48:42 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:48:48 a.m.</span>
+<span class='badge badge-default'>00:00:06:013</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:48:48 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">Contact( )</p>
+            <p class="text-sm">
+              <span>10:48:51 a.m.</span> / <span>00:00:04:761</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Contact( )</h5>
+<span class='badge badge-success'>05.06.2024 10:48:51 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:48:56 a.m.</span>
+<span class='badge badge-default'>00:00:04:761</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:48:56 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioHeaderTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">ContactColorTest( )</p>
+            <p class="text-sm">
+              <span>10:48:59 a.m.</span> / <span>00:00:05:905</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ContactColorTest( )</h5>
+<span class='badge badge-success'>05.06.2024 10:48:59 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:49:05 a.m.</span>
+<span class='badge badge-default'>00:00:05:905</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioHeaderTest</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioHeaderTest</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:49:05 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioContentsTestPart1"
+          device="">
+          <div class="test-detail">
+            <p class="name">Home( )</p>
+            <p class="text-sm">
+              <span>10:49:08 a.m.</span> / <span>00:00:00:225</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Home( )</h5>
+<span class='badge badge-success'>05.06.2024 10:49:08 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:49:09 a.m.</span>
+<span class='badge badge-default'>00:00:00:225</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioContentsTestPart1</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioContentsTestPart1</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:49:09 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioContentsTestPart1"
+          device="">
+          <div class="test-detail">
+            <p class="name">About( )</p>
+            <p class="text-sm">
+              <span>10:49:12 a.m.</span> / <span>00:00:02:703</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">About( )</h5>
+<span class='badge badge-success'>05.06.2024 10:49:12 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:49:15 a.m.</span>
+<span class='badge badge-default'>00:00:02:703</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioContentsTestPart1</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioContentsTestPart1</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:49:15 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioContentsTestPart1"
+          device="">
+          <div class="test-detail">
+            <p class="name">Skills( )</p>
+            <p class="text-sm">
+              <span>10:49:18 a.m.</span> / <span>00:00:00:432</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Skills( )</h5>
+<span class='badge badge-success'>05.06.2024 10:49:18 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:49:19 a.m.</span>
+<span class='badge badge-default'>00:00:00:432</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioContentsTestPart1</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioContentsTestPart1</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:49:19 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioContentsTestPart1"
+          device="">
+          <div class="test-detail">
+            <p class="name">Home( )</p>
+            <p class="text-sm">
+              <span>10:49:22 a.m.</span> / <span>00:00:00:666</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Home( )</h5>
+<span class='badge badge-success'>05.06.2024 10:49:22 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:49:23 a.m.</span>
+<span class='badge badge-default'>00:00:00:666</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioContentsTestPart1</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioContentsTestPart1</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:49:23 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioContentsTestPart1"
+          device="">
+          <div class="test-detail">
+            <p class="name">About( )</p>
+            <p class="text-sm">
+              <span>10:49:27 a.m.</span> / <span>00:00:03:245</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">About( )</h5>
+<span class='badge badge-success'>05.06.2024 10:49:27 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:49:30 a.m.</span>
+<span class='badge badge-default'>00:00:03:245</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioContentsTestPart1</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioContentsTestPart1</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:49:30 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="32"
+          author="ShariniRithigaaBS"
+          tag="com.My_Portfolio_Testing.PortfolioContentsTestPart1"
+          device="">
+          <div class="test-detail">
+            <p class="name">Skills( )</p>
+            <p class="text-sm">
+              <span>10:49:34 a.m.</span> / <span>00:00:01:032</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Skills( )</h5>
+<span class='badge badge-success'>05.06.2024 10:49:34 a.m.</span>
+<span class='badge badge-danger'>05.06.2024 10:49:35 a.m.</span>
+<span class='badge badge-default'>00:00:01:032</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ShariniRithigaaBS</span>
+<span class="badge badge-pill badge-default">com.My_Portfolio_Testing.PortfolioContentsTestPart1</span></div>
+<div class="m-t-10 m-l-5">com.My_Portfolio_Testing.PortfolioContentsTestPart1</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:49:35 a.m.</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">com.My_Portfolio_Testing.PortfolioContentsTestPart1</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>com.My_Portfolio_Testing.PortfolioContentsTestPart1</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:08 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>Home( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:12 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>About( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:18 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>Skills( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:22 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>Home( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:27 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>About( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:34 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>Skills( )</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>26</span>
+</span>
+<p class="name">com.My_Portfolio_Testing.PortfolioHeaderTest</p>
+<p class="duration text-sm">26 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>com.My_Portfolio_Testing.PortfolioHeaderTest</h4>
+<span status="pass" class='badge log pass-bg'>26 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:45:30 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>portfolio( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:45:37 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>home( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:45:45 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>homeColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:45:53 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>About( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:01 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>aboutColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:10 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Skills( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:17 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>skillColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:26 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Certifications( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:34 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>certColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:43 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Projects( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:51 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>ProjectColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:59 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>Contact( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:07 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>ContactColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:17 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>portfolio( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:24 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>home( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:32 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>homeColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:41 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>About( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:49 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>aboutColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:58 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>Skills( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:07 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>skillColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:16 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>Certifications( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:24 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>certColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:33 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>Projects( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:42 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>ProjectColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:51 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>Contact( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:59 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>ContactColorTest( )</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>32</span>
+</span>
+<p class="name">ShariniRithigaaBS</p>
+<p class="duration text-sm">32 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>ShariniRithigaaBS</h4>
+<span status="pass" class='badge log pass-bg'>32 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:45:30 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>portfolio( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:45:37 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>home( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:45:45 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>homeColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:45:53 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>About( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:01 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>aboutColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:10 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Skills( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:17 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>skillColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:26 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Certifications( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:34 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>certColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:43 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Projects( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:51 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>ProjectColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:46:59 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>Contact( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:07 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>ContactColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:17 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>portfolio( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:24 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>home( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:32 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>homeColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:41 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>About( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:49 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>aboutColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:58 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>Skills( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:07 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>skillColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:16 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>Certifications( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:24 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>certColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:33 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>Projects( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:42 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>ProjectColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:51 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>Contact( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:59 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>ContactColorTest( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:08 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>Home( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:12 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>About( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:18 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>Skills( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:22 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>Home( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:27 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>About( )</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:34 a.m.</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>Skills( )</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 6, 2024 10:45:30 a.m.</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 6, 2024 10:49:35 a.m.</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>32</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>32</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>32</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"portfolio( )":3.579,"home( )":4.203,"homeColorTest( )":5.609,"About( )":4.201,"aboutColorTest( )":5.387,"Skills( )":4.279,"skillColorTest( )":5.438,"Certifications( )":4.362,"certColorTest( )":5.571,"Projects( )":4.402,"ProjectColorTest( )":5.662,"Contact( )":4.463,"ContactColorTest( )":5.757,"portfolio( )":3.684,"home( )":4.607,"homeColorTest( )":5.765,"About( )":4.541,"aboutColorTest( )":5.791,"Skills( )":4.606,"skillColorTest( )":5.963,"Certifications( )":4.63,"certColorTest( )":5.828,"Projects( )":4.717,"ProjectColorTest( )":6.013,"Contact( )":4.761,"ContactColorTest( )":5.905,"Home( )":0.225,"About( )":2.703,"Skills( )":0.432,"Home( )":0.666,"About( )":3.245,"Skills( )":1.032
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>ShariniRithigaaBS</td>
+<td>32</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>com.My_Portfolio_Testing.PortfolioContentsTestPart1</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>com.My_Portfolio_Testing.PortfolioHeaderTest</td>
+<td>26</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 32,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 32,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

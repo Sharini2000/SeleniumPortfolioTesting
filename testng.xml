@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <!-- TestNG -->
+   <test thread-count="5" name="PortfolioHeader_Chrome_Test">
+	  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.My_Portfolio_Testing.PortfolioHeaderTest"/>
+    </classes>
+  </test>
+   <test thread-count="5" name="PortfolioHeader_Edge_Test">
+	  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="com.My_Portfolio_Testing.PortfolioHeaderTest"/>
+    </classes>
+  </test>
+   <test thread-count="5" name="PortfolioContents1_Chrome_Test">
+	  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.My_Portfolio_Testing.PortfolioContentsTestPart1"/>
+    </classes>
+  </test>
+   <test thread-count="5" name="PortfolioContents1_Edge_Test">
+	  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="com.My_Portfolio_Testing.PortfolioContentsTestPart1"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="PortfolioContents2_Chrome_Test">
+	  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.My_Portfolio_Testing.PortfolioContentsTestPart2"/>
+    </classes>
+  </test>
+   <test thread-count="5" name="PortfolioContents2_Edge_Test">
+	  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="com.My_Portfolio_Testing.PortfolioContentsTestPart2"/>
+    </classes>
+  </test>
+   <test thread-count="5" name="PortfolioContents3_Chrome_Test">
+	  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.My_Portfolio_Testing.PortfolioContentsTestPart3"/>
+    </classes>
+  </test>
+   <test thread-count="5" name="PortfolioContents3_Edge_Test">
+	  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="com.My_Portfolio_Testing.PortfolioContentsTestPart3"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
